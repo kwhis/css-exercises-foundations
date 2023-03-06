@@ -7,6 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -50,3 +51,12 @@ ul.right-links {
   gap: 15px;
 }
 
+.footer {
+  background-color: lightgray;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
