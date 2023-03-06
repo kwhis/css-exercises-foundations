@@ -5,9 +5,13 @@ body {
 }
 
 .header {
+  display: flex;
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-weight: bold;
+  font-size: 20px;
+  align-items: center;
 }
 
 .footer {
