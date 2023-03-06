@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -29,7 +28,7 @@ body {
 
 .sidebar {
   display: flex;
-  flex: 1 0 auto;
+  flex-shrink: 0;
   width: 300px;
   background: royalblue;
   padding: 16px;
@@ -40,20 +39,19 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 16px;
-  margin: 15px;
+  margin: 16px;
   width: 300px;
 }
 
-.main,
-.content {
+.main {
   display: flex;
-  flex-direction: row;
-  flex: 1 auto;
+  flex: 1;
 }
 
 .content {
-  padding: 32px;
+  display: flex;
   flex-wrap: wrap;
+  padding: 32px;
 }
 
 ul {
