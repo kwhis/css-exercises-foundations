@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .header {
@@ -47,6 +48,7 @@ body {
 .content {
   display: flex;
   flex-direction: row;
+  flex: 1 auto;
 }
 
 .content {
